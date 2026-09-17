@@ -1,7 +1,9 @@
 # formant_synth
 
 **把单声部歌唱 SMF「挤压」成 17 轨 GS 输出的 MIDI → MIDI 转换器。**
+
 **它由 DeepSeek API 驱动、以小步迭代方式开发，依据是自然语音的共振峰合成原理。**
+
 **双击 Release 中的 “Synth_Gui.exe” 即可使用。**
 
 读入一个带歌词的单声部歌唱 SMF（音符 + 歌词 + 弯音 + CC11），
