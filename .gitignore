@@ -1,0 +1,38 @@
+# ── 构建产物 ──
+out/
+build/
+cmake-build-*/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
+CMakeCache.txt
+CMakeFiles/
+.ninja_deps
+.ninja_log
+build.ninja
+
+# ── IDE ──
+.vs/
+.vscode/
+.idea/
+*.vcxproj*
+*.sln
+
+# ── 运行时 / 中间产物 ──
+*.wav
+*.png
+!docs/**/*.png
+*.csv
+*.log
+cache/
+scratch/
+.dsh_tmp/
+
+# ── 系统 ──
+Thumbs.db
+desktop.ini
+.DS_Store

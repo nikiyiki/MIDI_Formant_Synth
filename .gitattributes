@@ -1,0 +1,15 @@
+# 统一按 LF 存进仓库（源码里中文字面量多，行尾不一致会让 diff 变脏）
+* text=auto eol=lf
+
+# 二进制：别做任何行尾转换
+*.mid   binary
+*.midi  binary
+*.wav   binary
+*.png   binary
+*.pdf   binary
+*.rda   binary
+*.lib   binary
+*.exe   binary
+
+# 协议原文含制表/全角空白，别让 git 去"修"它
+docs/FORMANT-SYNTH-00262.txt -text
